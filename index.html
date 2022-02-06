@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Convertetess</title>
+        <meta charset = 'UTF-8'>
+        <meta name = 'author' content = 'Daniel'>
+        <meta name  = 'description' content ='Converta alguma coisa que achar interessante !'>
+        <meta name = 'keywords' content = 'Conversões, Unidades, Converter, '>
+        <link rel = 'stylesheet' href ='./style.css'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet"> 
+        <link rel = 'icon' href = './imagens/icon.png'>
+
+        <script src ='/javascript.js' type='text/javascript'></script>
+    </head>
+    <body>
+        <div id = 'MAIN'>
+            <header class  ='header_main'>
+                <nav>
+                    <ul>
+                        <li class  ='header-nav'><a href = '#'>Sobre</a></li>
+                    </ul>
+                </nav>
+                <h1 class = 'main_title'>Bem vindo ao convertetess !</h1>
+            </header>
+            <section class  = 'section_1'>
+                <h2 class = 'subtitle'>Começe fazendo as suas Conversões:</h2>
+                <section class  = 'section_convertions'>
+                    <div class  = 'componentes_1'>
+                        <label class = 'label-1'>Bytes para Bits</label>
+                        <input id = 'box-int-1'class  = 'input_data' type  = 'number' min = '0' placeholder="Quantidade de bytes">
+                        <input class = 'button' type  = 'submit'  onclick = 'send1()'value = 'Converter'>
+                        <div  id = 'resp_one' class  = 'output'>
+                        </div>
+                    </div>
+                    <div class  = 'componentes_2'>
+                        <label class = 'label-2'>Bits para Bytes</label>
+                        <input id = 'box-int-2'class  = 'input_data' type  = 'number' min = '0' placeholder="Quantidade de bits">
+                        <input class = 'button' type  = 'submit'  onclick = 'send2()'value = 'Converter'>
+                        <div  id = 'resp_two' class  = 'output'>
+                        </div>
+                    </div>
+
+
+                    <div class  = 'componentes_3'>
+                        <label class = 'label-3'>Graus Celsius para Fahrenheit</label>
+                        <input id = 'box-int-3'class  = 'input_data' type  = 'number' min = '0' placeholder="Quantidade de graus Celsius">
+                        <input class = 'button' type  = 'submit'  onclick = 'send3()'value = 'Converter'>
+                        <div  id = 'resp_three' class  = 'output'>
+                        </div>
+                    </div>
+                    <div class  = 'componentes_4'>
+                        <label class = 'label-4'> Graus Fahrenheit para Celsius</label>
+                        <input id = 'box-int-4'class  = 'input_data' type  = 'number' min = '0' placeholder="Quantidade de Fahrenheit para Celsius">
+                        <input class = 'button' type  = 'submit'  onclick = 'send4()'value = 'Converter'>
+                        <div  id = 'resp_four' class  = 'output'>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <footer class  ='footer'>
+                <p>Versão 1.2</p>
+            </footer>
+        </div>
+    </body>
+</html>
