@@ -16,6 +16,11 @@ body{
     color:aliceblue;
     text-shadow: green 1px 2px 2px;
 }
+.main_subtitle{
+    text-align: center;
+    color:aliceblue;
+    text-shadow: green 1px 2px 2px;
+}
 
 .subtitle{
     color:white;
