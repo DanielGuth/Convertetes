@@ -58,6 +58,7 @@ ul{
 }
 
 .button{
+    cursor:pointer;
     border-radius: 20%;
     height: 40px;
     border-color:rgb(186, 184, 184);
